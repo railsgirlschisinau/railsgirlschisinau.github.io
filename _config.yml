@@ -1,0 +1,17 @@
+title:            Rails Girls Chisinau
+email:            railsgirlsmd@gmail.com
+description: >
+                  Rails Girls Chisinau is series of free workshops aimed at teaching
+                  girls and women the basics of web development with Ruby on Rails framework.
+baseurl:          ""
+url:              http://railsgirlschisinau.github.io
+twitter_username: RailsGirlsMD
+github_username:  rails-girls-chisinau-website
+
+markdown:         kramdown
+theme:            minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
