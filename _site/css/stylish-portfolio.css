@@ -36,6 +36,10 @@ body {
     padding-top: 80px;
 }
 
+li i:hover {
+    color: rgba(0, 0, 0, .4)!important;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -43,10 +47,7 @@ body {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, .4);
-}
-
-li i:hover {
-    color: rgba(0, 0, 0, .4)!important;
+    font-size: 25px;
 }
 
 .btn-dark:hover,
@@ -61,6 +62,7 @@ li i:hover {
     border: none;
     border-radius: 0;
     background-color: rgb(255, 255, 255);
+    font-size: 25px;
 }
 
 .btn-light:hover,
