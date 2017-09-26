@@ -36,14 +36,17 @@ body {
     padding-top: 80px;
 }
 
-
 /* Custom Button Styles */
 
 .btn-dark {
     color: #fff;
     border: none;
     border-radius: 0;
-    background-color: #dc3545;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+li i:hover {
+    color: rgba(0, 0, 0, .4)!important;
 }
 
 .btn-dark:hover,
