@@ -215,6 +215,14 @@ hr.small {
     background-size: cover;
 }
 
+/* Portrait phones and smaller */
+
+@media (max-width: 575px) {
+    .img-mentors, .img-portfolio {
+        max-width: 40%;
+    }
+}
+
 
 /* Portfolio */
 
@@ -228,6 +236,10 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+}
+
+.img-mentors {
+    border-radius: 50%;
 }
 
 .img-portfolio:hover {
