@@ -289,3 +289,12 @@ footer {
     display: none;
     padding: 15px 20px;
 }
+
+.tekwill-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #333;
+}
