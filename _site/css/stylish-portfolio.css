@@ -305,6 +305,19 @@ a:hover {
     margin: 0 auto;
 }
 
+
 @media only screen and (max-width: 479px) {
-   .mobile-hide{ display: none !important; }
+   .mobile-hide {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+    .col-margin-right {
+        margin-right: 5px;
+    }
+
+    .col-margin-left {
+        margin-left: 5px;
+    }
 }
