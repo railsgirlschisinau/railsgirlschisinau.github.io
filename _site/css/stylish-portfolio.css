@@ -219,7 +219,7 @@ hr.small {
 
 @media (max-width: 575px) {
     .img-mentors, .img-portfolio {
-        max-width: 40%;
+        max-width: 30%;
     }
 }
 
@@ -235,6 +235,7 @@ hr.small {
 }
 
 .img-portfolio {
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -297,4 +298,9 @@ footer {
 
 a:hover {
     color: #333;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
