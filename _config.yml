@@ -5,6 +5,8 @@ description: >
                   girls and women the basics of web development with Ruby on Rails framework.
 baseurl:          ""
 url:              http://railsgirlschisinau.github.io
+github:
+  url:            #"https://github.com/railsgirlschisinau"
 twitter_username: RailsGirlsMD
 github_username:  rails-girls-chisinau-website
 
