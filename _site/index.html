@@ -22,6 +22,9 @@
   <!-- Custom CSS -->
   <link href="/css/stylish-portfolio.css" rel="stylesheet">
 
+  <!-- Flickity carousel slider -->
+  <link rel="stylesheet" href="/vendor/flickity/flickity.min.css" media="screen">
+
 </head>
 
 
@@ -66,7 +69,7 @@
     <br>of web development with Ruby on Rails</h3>
     <h1 class="text-white">Rails Girls Chișinău</h1>
     <br>
-    <a href="#apply" class="btn btn-dark bg-danger btn-lg js-scroll-trigger">APPLY</a>
+    <a href="#apply" class="btn btn-dark bg-danger btn-lg js-scroll-trigger disabled">APPLY</a>
   </div>
 </header>
 
@@ -167,7 +170,37 @@
           <p><i class="fa fa-clock-o"></i> from 10 a.m. to 6 p.m.</p>
           <p><i class="fa fa-map-signs"></i> at <a href="https://www.tekwill.md" class="tekwill-link" target="_blank">Tekwill</a></p>
           <p class="lead">Applications are closed at the moment.</p>
+          <a href="#" class="btn btn-light btn-lg disabled">APPLY</a>
         </h4>
+
+        <!-- Flickity carousel slider -->
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true ,  "wrapAround": true}'>
+          <div class="carousel-cell">
+
+            <div class="carousel-header">
+              <span class="past">Past event:</span></br>
+              <i class="fa fa-calendar" aria-hidden="true"></i> 16, 23 &amp; 30 May '15
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carousel-header">
+              <span class="past">Past event:</span></br>
+              <i class="fa fa-calendar" aria-hidden="true"></i> 6, 13 &amp; 20 Feb '16
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carousel-header">
+              <span class="past">Past event:</span></br>
+              <i class="fa fa-calendar" aria-hidden="true"></i> 13, 20 &amp; 27 May '17
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carousel-header">
+              <i class="fa fa-star" aria-hidden="true"></i> Next event:</br>
+              <i class="fa fa-calendar" aria-hidden="true"></i> 16 &amp; 17 June '18
+            </div>
+          </div>
+        </div>
       </div>
     </aside>
 
@@ -531,6 +564,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="/js/stylish-portfolio.js"></script>
+
+    <!-- Flickity carousel slider -->
+    <script src="/vendor/flickity/flickity.pkgd.min.js"></script>
 
   </body>
 
