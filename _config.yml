@@ -16,3 +16,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+image:
+  path: main.jpg
