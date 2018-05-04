@@ -328,23 +328,25 @@ a:hover {
 * { box-sizing: border-box; }
 
 .carousel-cell {
-  width: 66%;
-  height: 100px;
-  margin-right: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
+    width: 50%;
+    height: 100px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    counter-increment: carousel-cell;
 }
+
 
 .event {
     text-decoration: underline;
 }
 
 .carousel-header {
-  display: block;
-  text-align: center;
-  line-height: 50px;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 0.8);
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 @media only screen and (max-width: 500px) {
@@ -354,9 +356,9 @@ a:hover {
 }
 
 .flickity-button {
-  display: none;
+    display: none;
 }
 
 .flickity-page-dots .dot.is-selected {
-  background: white;
+    background: white;
 }
