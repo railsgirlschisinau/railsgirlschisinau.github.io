@@ -10,7 +10,7 @@ github:
 twitter_username: RailsGirlsMD
 github_username:  rails-girls-chisinau-website
 facebook:
-  app_id: FACEBOOK_APP_ID
+  app_id:         170933873606078
 
 markdown:         kramdown
 gems:
