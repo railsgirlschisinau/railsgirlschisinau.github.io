@@ -9,6 +9,8 @@ github:
   url:            #"https://github.com/railsgirlschisinau"
 twitter_username: RailsGirlsMD
 github_username:  rails-girls-chisinau-website
+facebook:
+  app_id: FACEBOOK_APP_ID
 
 markdown:         kramdown
 gems:
