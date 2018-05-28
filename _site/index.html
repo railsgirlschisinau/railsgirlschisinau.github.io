@@ -13,7 +13,7 @@
   <meta property="og:image" content="/img/rg-chisinau-header.png" / >
   <meta property="og:url" content="https://railsgirlschisinau.github.io" />
   <meta property="og:description" content="Free workshops to teach women the basics of web development using Ruby on Rails." />
-  <meta property="fb:app_id" content="" />
+  <meta property="fb:app_id" content="170933873606078" />
 
   <title>Rails Girls Chișinău</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" >
@@ -75,7 +75,9 @@
     <br>of web development with Ruby on Rails</h3>
     <h1 class="text-white">Rails Girls Chișinău</h1>
     <br>
-    <a href="https://goo.gl/forms/8pif2sigHjRI5f8I2" class="btn btn-dark bg-danger btn-lg">APPLY</a>
+    <button class="btn btn-dark bg-danger btn-lg disabled" data-toggle="tooltip" data-placement="top" title="Applications are closed.">
+    	APPLY
+    </button>
   </div>
 </header>
 
@@ -175,8 +177,8 @@
           <p><i class="fa fa-calendar" aria-hidden="true"></i> on the 16th and 17th of June, 2018</p>
           <p><i class="fa fa-clock-o"></i> from 10 a.m. to 6 p.m.</p>
           <p><i class="fa fa-map-signs"></i> at <a href="https://www.tekwill.md" class="tekwill-link" target="_blank">Tekwill</a></p>
-          <p class="lead">Applications are open until May 27, 2018.</p>
-          <a href="https://goo.gl/forms/8pif2sigHjRI5f8I2" class="btn btn-light btn-lg">APPLY</a>
+          <p class="lead">Applications are closed.</p>
+          <a href="" class="btn btn-light btn-lg disabled">APPLY</a>
         </h4>
 
         <!-- Flickity carousel slider -->
@@ -432,6 +434,21 @@
                   </p>
                 </div>
               </div>
+              <div class="col-6 col-sm-3 col-md-3">
+                <div class="portfolio-item">
+                  <a href="https://github.com/nicoletailiuha" target="_blank">
+                    <img class="img-portfolio img-fluid img-mentors" src="img/mentors/nicoleta_iliuha.png">
+                  </a>
+                  <p>
+                    <span class="fa fa-diamond text-danger">
+                      Nicoleta Iliuha
+                    </span>
+                    <span class="fa fa-diamond text-danger"></span>
+                    <br/>
+                    <span class="text-muted">Mentor</span>
+                  </p>
+                </div>
+              </div>
             </div>
             <!-- /.row (nested) -->
           </div>
@@ -602,6 +619,13 @@
 
     <!-- Flickity carousel slider -->
     <script src="/vendor/flickity/flickity.pkgd.min.js"></script>
+
+    <!-- Bootstrap button tooltip -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
 
   </body>
 
