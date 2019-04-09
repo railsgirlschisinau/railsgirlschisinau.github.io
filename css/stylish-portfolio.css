@@ -362,3 +362,7 @@ a:hover {
 .flickity-page-dots .dot.is-selected {
     background: white;
 }
+
+.event-color {
+    color: white;
+}
