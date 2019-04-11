@@ -19,4 +19,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 image:
-  path: main.jpg
+  path: sec2.jpg
